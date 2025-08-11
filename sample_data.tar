@@ -1,0 +1,10 @@
+example/hello.txt                                                                                   0000644 0001750 0001750 00000000037 14567123456 013456  0                                                                                                    ustar   user                            user                                                                                                                                                                                                                   Hello, World!
+This is a sample text file.
+example/data.json                                                                                   0000644 0001750 0001750 00000000067 14567123456 013567  0                                                                                                    ustar   user                            user                                                                                                                                                                                                                   {
+  "name": "sample",
+  "version": "1.0",
+  "description": "Sample data file"
+}
+config.ini                                                                                          0000644 0001750 0001750 00000000034 14567123456 012345  0                                                                                                    ustar   user                            user                                                                                                                                                                                                                   [settings]
+version=1.0
+debug=true
