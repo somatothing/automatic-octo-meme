@@ -56,7 +56,7 @@ class TestFileExtractor:
             assert (extract_to / 'folder' / 'nested_file.txt').exists()
             
             # Verify content
-            with open(extract_to / 'test_file.txt', 'r') as f:
+            with open(extract_to / 'test_file.txt', 'r', encoding='utf-8') as f:
                 assert f.read() == 'This is test content'
     
     def test_extract_zip_nonexistent_file(self, extractor):
